@@ -2,6 +2,7 @@ import React from 'react'
 import SamePost from './MainContent/ChangeProfilePost'
 import CreatePost from './MainContent/CreatePost'
 import FeelingPost from './MainContent/FeelligPost'
+import NotFoundPost from './MainContent/NotFoundPost'
 import Post from './MainContent/Post'
 import PublicPost from './MainContent/PublicPost'
 import Story from './MainContent/Story'
@@ -17,6 +18,7 @@ const MainContent = () => {
       <Post />
       <FeelingPost/>
       <SamePost  />
+      <NotFoundPost />
     </div>
   )
 }

@@ -69,7 +69,7 @@ const SamePost = () => {
                 <FaShare /> Share
               </li>
             </ul>
-            <div className=" flex items-center gap-3 mt-4 p-2">
+            <div className=" flex items-center gap-3 mt-4 p-2 text-[#5C5C5C]">
               <img className=" w-10 h-10 rounded-full " src={item.userIcon} alt="" />
               <FaSmile />
               <AiOutlineLink />
